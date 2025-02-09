@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>
+    Giftos
+  </title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Giftos
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""></span>
+        </button>
+
+        <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav  ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html">
+                Shop
+              </a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="testimonial.html">
+                Testimonial
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+ 
+              <div class="search-filter">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <select id="animalFilter">
+                <option value="all">All Animals</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="fish">Fish</option>
+                <option value="rabbit">Rabbit</option>
+            </select>
+        </div>
+      </nav>
+      
+    </header>
+    <!-- end header section -->
+
+  </div>
+  <!-- end hero area -->
+
+  <!-- Shop Section -->
+<section class="shop_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Latest Products</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/kucingmam.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Dry Food 1.2kg</h6>
+              <h6>Price <span>$5.50</span></h6>
+              <button onclick="addToCart('Cat Dry Food 1.2kg', 5.50)">Add to Cart</button>
+              
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainananjing1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Biting toys</h6>
+              <h6>Price <span>$2</span></h6>
+              <button onclick="addToCart('Biting toys', 2)">Add to Cart</button>
+            </div>
+       </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/kalungkucing1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Necklace</h6>
+              <h6>Price <span>$4</span></h6>
+              <button onclick="addToCart('Cat Necklace', 4)">Add to Cart</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/kandangburung1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Bird Cages</h6>
+              <h6>Price <span>$45</span></h6>
+              <button onclick="addToCart('Bird Cages', 45)">Add to Cart</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/dispenser1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Dispenser</h6>
+              <h6>Price <span>$95</span></h6>
+              <button onclick="addToCart('Cat Dispenser', 95)">Add to Cart</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainankucing2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Circle</h6>
+              <h6>Price <span>$44</span></h6>
+              <button onclick="addToCart('Cat Circle', 44)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainananjing3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Toys for Dog</h6>
+              <h6>Price <span>$4</span></h6>
+              <button onclick="addToCart('Toys for Dog', 4)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainankucing4.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Ball Rope</h6>
+              <h6>Price <span>$3.10</span></h6>
+              <button onclick="addToCart('Cat Ball Rope', 3.10)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<section class="shop_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Food</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananmeong1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Dry Food for Cat 3kg</h6>
+              <h6>Price <span>$12.40</span></h6>
+              <div class="rating">★★★☆☆</div>
+              <button onclick="addToCart('Dry Food for Cat 3kg', 12.40)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananmeongbasah1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Wet Food for Cat Creamy</h6>
+              <h6>Price <span>$30</span></h6>
+              <button onclick="addToCart('Wet Food for Cat Creamy', 30)">Add to Cart</button>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananmeongbasah2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Wet Food Cat</h6>
+              <h6>Price <span>$10</span></h6>
+              <button onclick="addToCart('Wet Food Cat ', 10)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makanangukgukbasah1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Wet Food for Dog</h6>
+              <h6>Price <span>$15</span></h6>
+              <button onclick="addToCart('Wet Food for Dog', 15)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makanangukgukbasah3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Dog Wet Food</h6>
+              <h6>Price <span>$45</span></h6>
+              <button onclick="addToCart('Dog Wet Food', 45)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makanangukgukbasah4.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Food for Dog</h6>
+              <h6>Price <span>$20.12</span></h6>
+              <button onclick="addToCart('Food for Dog', 20.12)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananikan1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Fish Food</h6>
+              <h6>Price <span>$10</span></h6>
+              <button onclick="addToCart('Fish Food', 10)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananikan2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Food for Fish</h6>
+              <h6>Price <span>$9</span></h6>
+              <button onclick="addToCart('Food for Fish', 9)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/makananburung1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Food for Bird</h6>
+              <h6>Price <span>$12.80</span></h6>
+              <button onclick="addToCart('Food for Bird', 12.80)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+                
+<section class="shop_section layout_padding">
+  <div class="container">
+  <div class="heading_container heading_center">
+  <h2>
+  Drink
+  </h2>
+  </div>
+  <div class="row">
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/minuman/minuman1.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Cat Milk
+  </h6>
+  <h6>
+  Price
+  <span>
+  $20
+  </span>
+  </h6>
+  <button onclick="addToCart('Cat Milk', 20)">Add to Cart</button>
+
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/minuman/minumananjing2.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Milk Dog
+  </h6>
+  <h6>
+  Price
+  <span>
+  $30
+  </span>
+  </h6>
+  <button onclick="addToCart('Milk Dog', 30)">Add to Cart</button>
+
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/minuman/minumananjing3.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Dog Milk
+  </h6>
+  <h6>
+  Price
+  <span>
+  $15.33
+  </span>
+  </h6>
+  <button onclick="addToCart('Dog Milk', 15.33)">Add to Cart</button>
+
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/minuman/minumananternak5.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Milk Animal
+  </h6>
+  <h6>
+  Price
+  <span>
+  $45
+  </span>
+  </h6>
+  <button onclick="addToCart('Milk Animal', 45)">Add to Cart</button>
+
+  </div>
+  </a>
+  </div>
+  </div>
+  
+<section class="shop_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Animal Clothes</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajukucing1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Dress Cat</h6>
+              <h6>Price <span>$300</span></h6>
+              <button onclick="addToCart('Dress Cat', 300)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajukucing2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Batik</h6>
+              <h6>Price <span>$120</span></h6>
+              <button onclick="addToCart('Cat Batik', 120)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajukucing3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Pretty Dress</h6>
+              <h6>Price <span>$500</span></h6>
+              <button onclick="addToCart('Dress Cat', 500)">Add to Cart</button>
+
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajuanjing4.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Christmas T-Shirt</h6>
+              <h6>Price <span>$45</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajuanjing5.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Deer Custom</h6>
+              <h6>Price <span>$95</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajuanjing6.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cute Deer</h6>
+              <h6>Price <span>$88</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/bajukelinci7.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cute Rabbit</h6>
+              <h6>Price <span>$99.97</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/topikelinci8.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Rabbit Hat</h6>
+              <h6>Price <span>$32</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/baju/topihamster9.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cute Rabbit</h6>
+              <h6>Price <span>$44</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="shop_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Toys</h2>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainanhamster1.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>For Hamster</h6>
+              <h6>Price <span>$59</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainankucing2.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>For Cat</h6>
+              <h6>Price <span>$77</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainankucing3.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Toys Cat</h6>
+              <h6>Price <span>$43</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainananjing4.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>For Dog</h6>
+              <h6>Price <span>$22</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainananjing5.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Dog Toys</h6>
+              <h6>Price <span>$42</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainananjing6.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Dog Chew Toy</h6>
+              <h6>Price <span>$20</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainankucing7.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Slider Cat</h6>
+              <h6>Price <span>$19.20</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="box">
+          <a href="">
+            <div class="img-box">
+              <img src="images/mainan/mainankucing8.png" alt="">
+            </div>
+            <div class="detail-box">
+              <h6>Cat Leash</h6>
+              <h6>Price <span>$9</span></h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="shop_section layout_padding">
+  <div class="container">
+  <div class="heading_container heading_center">
+  <h2>
+  Animal Personal Equipment
+  </h2>
+  </div>
+  <div class="row">
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/bedkucing1.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Bed for Cat
+  </h6>
+  <h6>
+  Price
+  <span>
+  $55
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/bedkucing2.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Cat Bed
+  </h6>
+  <h6>
+  Price
+  <span>
+  $120
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/makankucing3.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Cat Food Place
+  </h6>
+  <h6>
+  Price
+  <span>
+  $56
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/eekkucing4.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Litter Box
+  </h6>
+  <h6>
+  Price
+  <span>
+  $33
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/minumkucing5.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Drink place for Cat
+  </h6>
+  <h6>
+  Price
+  <span>
+  $95
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/sisirkucing6.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Cat Comb
+  </h6>
+  <h6>
+  Price
+  <span>
+  $4.14
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-3">
+  <div class="box">
+  <a href="">
+  <div class="img-box">
+  <img src="images/perlengkapan/taskucing7.png" alt="">
+  </div>
+  <div class="detail-box">
+  <h6>
+  Cat Bag
+  </h6>
+  <h6>
+  Price
+  <span>
+  $26.71
+  </span>
+  </h6>
+  </div>
+  </a>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div> 
+  
+  </section>
+  
+
+  <!-- end shop section -->
+
+ <!-- info section -->
+
+ <section class="info_section  layout_padding2-top">
+  <div class="social_container">
+    <div class="social_box">
+      <a href="https://x.com/i/flow/login">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="https://youtu.be/REW8Ag9V4CI?list=RDu9rbmk2_EkY">
+        <i class="fa fa-youtube" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <!-- footer section -->
+  <footer class=" footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> All Rights Reserved By
+        <a href="https://html.design/">Nadine Zaskia Zafira</a>
+      </p>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+</section>
+
+<!-- end info section -->
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>
